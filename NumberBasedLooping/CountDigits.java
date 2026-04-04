@@ -1,0 +1,27 @@
+
+import java.util.*;
+public class CountDigits {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int count=0;
+        try{
+int n=sc.nextInt();
+
+while(n>0){
+
+    count++;
+    n=n/10;
+}
+System.out.println(count);
+
+
+
+        }
+
+        catch(Exception e){
+
+e.printStackTrace();
+
+        }
+    }
+}
